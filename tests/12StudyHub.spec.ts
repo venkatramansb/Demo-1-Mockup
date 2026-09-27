@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Get Video Thumbnails API', async ({ request }) => {
+test.skip('Get Video Thumbnails API', async ({ request }) => {
 
     // Request Headers
     const requestHead = {

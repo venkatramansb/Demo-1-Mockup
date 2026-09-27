@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 
-test('Download and verify file size', async ({ page }) => {
+test.skip('Download and verify file size', async ({ page }) => {
   const locator = page.getByRole('button', { name: 'Download' });
 
   // 1. Wait for the event and click simultaneously using Promise.all

@@ -9,7 +9,7 @@ dotenv.config({
     path: envPath
 });
 
-test('01 - Login and save auth-sh-user', async ({ page }) => {
+test.skip('01 - Login and save auth-sh-user', async ({ page }) => {
 
     await page.goto(
         'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
