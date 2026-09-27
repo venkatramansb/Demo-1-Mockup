@@ -1,0 +1,17 @@
+{
+  "name": "playwrightpractice2api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "dotenv": "^18.0.3"
+  }
+}
